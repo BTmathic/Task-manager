@@ -1,0 +1,9 @@
+@import './base/settings';
+@import './base/base'; // when using @import do not include _ or file extension
+@import './components/add-task';
+@import './components/button';
+@import './components/container';
+@import './components/header';
+@import './components/modal';
+@import './components/task';
+@import './components/widget';

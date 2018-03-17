@@ -1,0 +1,55 @@
+// Big button
+.big-button {
+    background: $purple;
+    border: none;
+    border-bottom: 0.6rem solid darken($purple, 10%);
+    color: white;
+    font-size: $l-size;
+    font-weight: bold;
+    margin-bottom: $m-size;
+    padding: 2.2rem;
+    width: 100%;
+}
+
+.big-button:disabled {
+    opacity: 0.5;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
+}
+
+// Generic button
+.button {
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple, 10%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+// Remove button
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+
+// Complete button
+.button--complete, .button--incomplete {
+    background: none;
+    border: none;
+    padding-left: $xs-size;
+    padding-right: $m-size;
+}
+
+.button--incomplete {
+    color: #ff4d4d;
+}
+.button--complete {
+    color: #00b300;
+}
