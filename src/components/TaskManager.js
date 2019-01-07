@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b8cebb0a93c737f340c7bbdc6dfaac98092eebf4
 // Things to do
 // 1- Switch completed toggle to tasks array (and handle the array accordingly) so completed status
 // is saved with page reload as well
 // 2- Resize 'click for random task' button to not be quite so large
 // 3- Adjust spacing with the title and subtitle, looks a bit cramped right now
 
+<<<<<<< HEAD
+>>>>>>> b8cebb0a93c737f340c7bbdc6dfaac98092eebf4
+=======
 >>>>>>> b8cebb0a93c737f340c7bbdc6dfaac98092eebf4
 import React from 'react';
 import Action from './Action';
@@ -46,6 +52,10 @@ export default class TaskManager extends React.Component {
 
     handlePick = () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // randomly select an option from the options array
+>>>>>>> b8cebb0a93c737f340c7bbdc6dfaac98092eebf4
 =======
         // randomly select an option from the options array
 >>>>>>> b8cebb0a93c737f340c7bbdc6dfaac98092eebf4
