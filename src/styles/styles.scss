@@ -1,0 +1,13 @@
+@import './base/settings';
+<<<<<<< HEAD
+@import './base/base';
+=======
+@import './base/base'; // when using @import do not include _ or file extension
+>>>>>>> b8cebb0a93c737f340c7bbdc6dfaac98092eebf4
+@import './components/add-task';
+@import './components/button';
+@import './components/container';
+@import './components/header';
+@import './components/modal';
+@import './components/task';
+@import './components/widget';
